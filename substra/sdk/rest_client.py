@@ -41,7 +41,6 @@ class Client():
             'Accept': 'application/json;version={}'.format(config['version']),
         }
 
-        # TODO rework with simple Token Authentication
         if 'jwt' in config:
             headers.update({
                 'Authorization': f"JWT {config['jwt']}"
