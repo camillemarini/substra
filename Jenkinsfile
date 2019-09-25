@@ -48,8 +48,8 @@ pipeline {
           sh "flake8 substra"
           sh "pip install -e .[test]"
           sh "python setup.py test"
-          sh "python bin/generate_cli_documentation.py --output-path references/cli.md.tmp && cmp --silent references/cli.md references/cli.md.tmp"
-          sh "pydocmd simple substra.sdk+ substra.sdk.Client+ > references/sdk.md.tmp  && cmp --silent references/sdk.md references/sdk.md.tmp"
+          sh "python bin/generate_cli_documentation.py --output-path references/cli.md.tmp && diff references/cli.md references/cli.md.tmp"
+          sh "pydocmd simple substra.sdk+ substra.sdk.Client+ > references/sdk.md.tmp  && diff references/sdk.md references/sdk.md.tmp"
           sh "rm -rf references/*.tmp"
         }
       }
