@@ -47,8 +47,7 @@ Usage: substra login [OPTIONS]
 Options:
   --config PATH   Config path (default ~/.substra).
   --profile TEXT  Profile name to use.
-  --user PATH     User file path to use (default /home/guillaume/.substra-
-                  user).
+  --user PATH     User file path to use (default ~/.substra-user).
   --help          Show this message and exit.
 ```
 
@@ -70,8 +69,7 @@ Options:
   --test-only         Data sample(s) used as test data only.
   --config PATH       Config path (default ~/.substra).
   --profile TEXT      Profile name to use.
-  --user PATH         User file path to use (default /home/guillaume/.substra-
-                      user).
+  --user PATH         User file path to use (default ~/.substra-user).
   --verbose           Enable verbose mode.
   --help              Show this message and exit.
 ```
@@ -109,8 +107,7 @@ Options:
   --pretty              Pretty print output  [default: True]
   --config PATH         Config path (default ~/.substra).
   --profile TEXT        Profile name to use.
-  --user PATH           User file path to use (default
-                        /home/guillaume/.substra-user).
+  --user PATH           User file path to use (default ~/.substra-user).
   --verbose             Enable verbose mode.
   --help                Show this message and exit.
 ```
@@ -158,8 +155,7 @@ Options:
   --pretty                  Pretty print output  [default: True]
   --config PATH             Config path (default ~/.substra).
   --profile TEXT            Profile name to use.
-  --user PATH               User file path to use (default
-                            /home/guillaume/.substra-user).
+  --user PATH               User file path to use (default ~/.substra-user).
   --verbose                 Enable verbose mode.
   --help                    Show this message and exit.
 ```
@@ -193,8 +189,7 @@ Options:
   --pretty        Pretty print output  [default: True]
   --config PATH   Config path (default ~/.substra).
   --profile TEXT  Profile name to use.
-  --user PATH     User file path to use (default /home/guillaume/.substra-
-                  user).
+  --user PATH     User file path to use (default ~/.substra-user).
   --verbose       Enable verbose mode.
   --help          Show this message and exit.
 ```
@@ -227,8 +222,7 @@ Options:
   --pretty                  Pretty print output  [default: True]
   --config PATH             Config path (default ~/.substra).
   --profile TEXT            Profile name to use.
-  --user PATH               User file path to use (default
-                            /home/guillaume/.substra-user).
+  --user PATH               User file path to use (default ~/.substra-user).
   --verbose                 Enable verbose mode.
   --help                    Show this message and exit.
 ```
@@ -260,8 +254,7 @@ Options:
   --pretty                  Pretty print output  [default: True]
   --config PATH             Config path (default ~/.substra).
   --profile TEXT            Profile name to use.
-  --user PATH               User file path to use (default
-                            /home/guillaume/.substra-user).
+  --user PATH               User file path to use (default ~/.substra-user).
   --verbose                 Enable verbose mode.
   --help                    Show this message and exit.
 ```
@@ -281,8 +274,7 @@ Options:
   --pretty        Pretty print output  [default: True]
   --config PATH   Config path (default ~/.substra).
   --profile TEXT  Profile name to use.
-  --user PATH     User file path to use (default /home/guillaume/.substra-
-                  user).
+  --user PATH     User file path to use (default ~/.substra-user).
   --verbose       Enable verbose mode.
   --help          Show this message and exit.
 ```
@@ -313,8 +305,7 @@ Options:
   --pretty                 Pretty print output  [default: True]
   --config PATH            Config path (default ~/.substra).
   --profile TEXT           Profile name to use.
-  --user PATH              User file path to use (default
-                           /home/guillaume/.substra-user).
+  --user PATH              User file path to use (default ~/.substra-user).
   --verbose                Enable verbose mode.
   --help                   Show this message and exit.
 ```
@@ -329,8 +320,7 @@ Usage: substra describe [OPTIONS] [algo|dataset|objective] ASSET_KEY
 Options:
   --config PATH   Config path (default ~/.substra).
   --profile TEXT  Profile name to use.
-  --user PATH     User file path to use (default /home/guillaume/.substra-
-                  user).
+  --user PATH     User file path to use (default ~/.substra-user).
   --verbose       Enable verbose mode.
   --help          Show this message and exit.
 ```
@@ -350,8 +340,7 @@ Options:
   --folder PATH   destination folder
   --config PATH   Config path (default ~/.substra).
   --profile TEXT  Profile name to use.
-  --user PATH     User file path to use (default /home/guillaume/.substra-
-                  user).
+  --user PATH     User file path to use (default ~/.substra-user).
   --verbose       Enable verbose mode.
   --help          Show this message and exit.
 ```
@@ -372,8 +361,7 @@ Options:
                      [default: desc]
   --config PATH      Config path (default ~/.substra).
   --profile TEXT     Profile name to use.
-  --user PATH        User file path to use (default /home/guillaume/.substra-
-                     user).
+  --user PATH        User file path to use (default ~/.substra-user).
   --verbose          Enable verbose mode.
   --help             Show this message and exit.
 ```
@@ -443,8 +431,7 @@ Options:
   --dataset-key TEXT  [required]
   --config PATH       Config path (default ~/.substra).
   --profile TEXT      Profile name to use.
-  --user PATH         User file path to use (default /home/guillaume/.substra-
-                      user).
+  --user PATH         User file path to use (default ~/.substra-user).
   --verbose           Enable verbose mode.
   --help              Show this message and exit.
 ```
@@ -459,8 +446,7 @@ Usage: substra update dataset [OPTIONS] DATASET_KEY OBJECTIVE_KEY
 Options:
   --config PATH   Config path (default ~/.substra).
   --profile TEXT  Profile name to use.
-  --user PATH     User file path to use (default /home/guillaume/.substra-
-                  user).
+  --user PATH     User file path to use (default ~/.substra-user).
   --verbose       Enable verbose mode.
   --help          Show this message and exit.
 ```
