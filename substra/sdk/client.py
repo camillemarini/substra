@@ -68,7 +68,7 @@ class Client(object):
         except (UserException, FileNotFoundError):
             pass
         else:
-            if self._current_profile is not None:
+            if self._current_profile is not None and 'token' in user:
                 self._current_profile.update({
                     'token': user['token'],
                 })
