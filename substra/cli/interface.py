@@ -4,7 +4,6 @@ import os
 
 import click
 import consolemd
-from substra.sdk.user import DEFAULT_PATH
 
 from substra import __version__, runner
 from substra.cli import printers
@@ -75,7 +74,7 @@ def click_option_user(f):
     return click.option(
         '--user',
         type=click.Path(resolve_path=True),
-        default=DEFAULT_PATH,
+        default=usr.DEFAULT_PATH,
         help='User file path to use (default ~/.substra-user).')(f)
 
 
