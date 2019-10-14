@@ -11,7 +11,7 @@ def test_add_load_profile(tmpdir):
         'owkin',
         'foo',
         'bar',
-        url='http://substrabac.owkin.com:8000',
+        url='http://substrabac.owkin.xyz:8000',
         version='0.0')
 
     profile_2 = manager.load_profile('owkin')
