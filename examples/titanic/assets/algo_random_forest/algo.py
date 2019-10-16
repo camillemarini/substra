@@ -3,7 +3,6 @@ import re
 import pandas as pd
 import pickle
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import GridSearchCV
 
 import numpy as np
 
