@@ -21,8 +21,8 @@ This guide will help you to get Substra source code and to start a local instanc
 - network: map localhost to owkin and chunantes backend hostnames. Edit `/etc/hosts` and add the following lines:
 
 ```
-127.0.0.1       substrabac.chunantes.com
-127.0.0.1       substrabac.owkin.com
+127.0.0.1       substrabac.chunantes.xyz
+127.0.0.1       substrabac.owkin.xyz
 ```
 
 ## Get source code
@@ -154,5 +154,5 @@ python3 substrabac/populate.py
 export SUBSTRA_SOURCE=~/substra
 alias sbnet-start="cd $SUBSTRA_SOURCE/substra-network/; ./bootstrap.sh && python3 python-scripts/start.py --no-backup; docker rm -f run setup; cd -"
 alias sbbac-start="pushd .; cd $SUBSTRA_SOURCE/substrabac/; sh build-docker-images.sh; sh substrabac/scripts/clean_media.sh; cd docker; python3 start.py -d --no-backup; popd"
-alias sbbac-wait="while ! curl substrabac.owkin.com:8000 ; do sleep 2 ; done"
+alias sbbac-wait="while ! curl substrabac.owkin.xyz:8000 ; do sleep 2 ; done"
 ```
